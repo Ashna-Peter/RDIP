@@ -1,0 +1,48 @@
+body {
+  background-color: #fff;
+  margin: 0px auto;
+}
+.calbody {
+  background: #091746be;
+  border: 1px solid #ff0;
+  padding: 10px;
+  margin-left: 450px;
+  min-width: 27.4em;
+  max-width: 27.4em;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #102466;
+}
+
+#lcd {
+  text-align: right;
+  width: 23em;
+  height: 40px;
+  font-size: 18px;
+  background-color: #bcbcbc;
+}
+
+#lcdu {
+  color: grey;
+  text-align: right;
+  width: 27.6em;
+  height: 35px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #fff;
+  width: 80px;
+  height: 60px;
+  font-size: 20px;
+  border: 1px solid #102466;
+}
+
+button:hover {
+  background-color: #425e91;
+}
+body {
+  background-color: #bcbcbc;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" type="text/css" />
+  </head>
+  <body onload="document.form1.focus()">
+    <div class="mail">
+      <form name="form1" action="#">
+        <ul>
+          <li>Name:</li>
+          <li>
+            <input type="text" name="text1" placeholder="enter name" required />
+          </li>
+          <li class="rq">*Enter alphabets only.</li>
+          <li>&nbsp;</li>
+          <li>Email:</li>
+          <li>
+            <input type="email" name="email" placeholder="me@me.com" required />
+          </li>
+          <li class="rq">*Enter valid email.</li>
+          <li>Phone No:</li>
+          <li>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="123-45-678"
+              pattern="[0-9]{10}"
+              required
+            />
+          </li>
+          <li class="rq">*Enter numbers only.</li>
+          <li>
+            <input
+              type="submit"
+              name="submit"
+              value="Submit"
+              onclick="allLetter(document.form1.text1)"
+            />
+          </li>
+
+          <li>&nbsp;</li>
+        </ul>
+      </form>
+    </div>
+    <script src="week2.js"></script>
+  </body>
+</html>
